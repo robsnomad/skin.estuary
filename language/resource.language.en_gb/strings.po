@@ -204,11 +204,6 @@ msgctxt "#31036"
 msgid "items"
 msgstr ""
 
-#: /xml/SkinSettings.xml
-msgctxt "#31037"
-msgid "TV show certification rating country"
-msgstr ""
-
 #: /xml/Variables.xml
 msgctxt "#31038"
 msgid "Rewind"
@@ -217,11 +212,6 @@ msgstr ""
 #: /xml/Variables.xml
 msgctxt "#31039"
 msgid "Fast forward"
-msgstr ""
-
-#: /xml/SkinSettings.xml
-msgctxt "#31040"
-msgid "Show Movie certification ratings"
 msgstr ""
 
 #: /xml/Variables.xml /xml/MyPics.xml
@@ -254,25 +244,17 @@ msgctxt "#31046"
 msgid "Delete group"
 msgstr ""
 
-#: /xml/SkinSettings.xml
-msgctxt "#31047"
-msgid "Display certification rating on TV show poster"
-msgstr ""
-
 #: /xml/DialogVideoInfo.xml
 msgctxt "#31048"
 msgid "Available"
-msgstr ""
-
-#: /xml/SkinSettings.xml
-msgctxt "#31049"
-msgid "Display certification rating on season poster"
 msgstr ""
 
 #: /xml/Variables.xml
 msgctxt "#31050"
 msgid "Press [B]OK[/B] to stop"
 msgstr ""
+
+#empty string with id 31051
 
 #: /xml/Includes.xml
 msgctxt "#31052"
@@ -611,10 +593,7 @@ msgctxt "#31132"
 msgid "Select Program"
 msgstr ""
 
-#: /xml/Custom_1101_SettingsList.xml
-msgctxt "#31133"
-msgid "Select Resolution"
-msgstr ""
+#empty string with id 31133
 
 #: /xml/DialogSeekBar.xml
 msgctxt "#31134"
