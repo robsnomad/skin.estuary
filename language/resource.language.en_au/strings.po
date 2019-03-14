@@ -36,10 +36,6 @@ msgctxt "#31020"
 msgid "Actions"
 msgstr "Actions"
 
-msgctxt "#31051"
-msgid "Toggle language"
-msgstr "Toggle language"
-
 msgctxt "#31038"
 msgid "Rewind"
 msgstr "Rewind"
