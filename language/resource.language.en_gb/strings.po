@@ -154,10 +154,7 @@ msgctxt "#31026"
 msgid "Timeshift"
 msgstr ""
 
-#: /xml/SkinSettings.xml
-msgctxt "#31027"
-msgid "Movie certification rating country"
-msgstr ""
+#empty string with id 31027
 
 #: /xml/DialogAlbumInfo.xml /xml/DialogVideoInfo.xml
 msgctxt "#31028"
@@ -204,6 +201,8 @@ msgctxt "#31036"
 msgid "items"
 msgstr ""
 
+#empty string with id 31027
+
 #: /xml/Variables.xml
 msgctxt "#31038"
 msgid "Rewind"
@@ -213,6 +212,8 @@ msgstr ""
 msgctxt "#31039"
 msgid "Fast forward"
 msgstr ""
+
+#empty string with id 31040
 
 #: /xml/Variables.xml /xml/MyPics.xml
 msgctxt "#31041"
@@ -244,10 +245,14 @@ msgctxt "#31046"
 msgid "Delete group"
 msgstr ""
 
+#empty string with id 31047
+
 #: /xml/DialogVideoInfo.xml
 msgctxt "#31048"
 msgid "Available"
 msgstr ""
+
+#empty string with id 31049
 
 #: /xml/Variables.xml
 msgctxt "#31050"
