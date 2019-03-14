@@ -154,7 +154,10 @@ msgctxt "#31026"
 msgid "Timeshift"
 msgstr ""
 
-#empty string with id 31027
+#: /xml/SkinSettings.xml
+msgctxt "#31027"
+msgid "Movie certification rating country"
+msgstr ""
 
 #: /xml/DialogAlbumInfo.xml /xml/DialogVideoInfo.xml
 msgctxt "#31028"
@@ -201,7 +204,10 @@ msgctxt "#31036"
 msgid "items"
 msgstr ""
 
-#empty string with id 31037
+#: /xml/SkinSettings.xml
+msgctxt "#31037"
+msgid "TV show certification rating country"
+msgstr ""
 
 #: /xml/Variables.xml
 msgctxt "#31038"
@@ -213,7 +219,10 @@ msgctxt "#31039"
 msgid "Fast forward"
 msgstr ""
 
-#empty string with id 31040
+#: /xml/SkinSettings.xml
+msgctxt "#31040"
+msgid "Show Movie certification ratings"
+msgstr ""
 
 #: /xml/Variables.xml /xml/MyPics.xml
 msgctxt "#31041"
@@ -245,21 +254,25 @@ msgctxt "#31046"
 msgid "Delete group"
 msgstr ""
 
-#empty string with id 31047
+#: /xml/SkinSettings.xml
+msgctxt "#31047"
+msgid "Display certification rating on TV show poster"
+msgstr ""
 
 #: /xml/DialogVideoInfo.xml
 msgctxt "#31048"
 msgid "Available"
 msgstr ""
 
-#empty string with id 31049
+#: /xml/SkinSettings.xml
+msgctxt "#31049"
+msgid "Display certification rating on season poster"
+msgstr ""
 
 #: /xml/Variables.xml
 msgctxt "#31050"
 msgid "Press [B]OK[/B] to stop"
 msgstr ""
-
-#empty string with id 31051
 
 #: /xml/Includes.xml
 msgctxt "#31052"
@@ -598,7 +611,10 @@ msgctxt "#31132"
 msgid "Select Program"
 msgstr ""
 
-#empty string with id 31133
+#: /xml/Custom_1101_SettingsList.xml
+msgctxt "#31133"
+msgid "Select Resolution"
+msgstr ""
 
 #: /xml/DialogSeekBar.xml
 msgctxt "#31134"
@@ -738,3 +754,28 @@ msgstr ""
 msgctxt "#31163"
 msgid "Show Fanart background"
 msgstr ""
+
+#: /xml/SkinSettings.xml
+msgctxt "#31171"
+msgid "Show movie certification ratings"
+msgstr "Show movie certification ratings"
+
+#: /xml/SkinSettings.xml
+msgctxt "#31172"
+msgid "Show TV show certification ratings"
+msgstr "Show TV show certification ratings"
+
+#: /xml/SkinSettings.xml
+msgctxt "#31173"
+msgid "Display certification rating on TV show poster"
+msgstr "Display certification rating on TV show poster"
+
+#: /xml/SkinSettings.xml
+msgctxt "#31174"
+msgid "Display certification rating on season poster"
+msgstr "Display certification rating on season poster"
+
+#: /xml/SkinSettings.xml
+msgctxt "#31175"
+msgid "Display certification rating on episode thumbnail"
+msgstr "Display certification rating on episode thumbnail"

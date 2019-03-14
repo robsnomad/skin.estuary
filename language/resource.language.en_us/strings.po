@@ -124,6 +124,10 @@ msgctxt "#31026"
 msgid "Timeshift"
 msgstr "Timeshift"
 
+msgctxt "#31027"
+msgid "Show movie certification ratings"
+msgstr "Show movie certification ratings"
+
 msgctxt "#31028"
 msgid "Show fanart"
 msgstr "Show fanart"
@@ -160,6 +164,10 @@ msgctxt "#31036"
 msgid "items"
 msgstr "items"
 
+msgctxt "#31037"
+msgid "Show TV show certification ratings"
+msgstr "Show TV show certification ratings"
+
 msgctxt "#31038"
 msgid "Rewind"
 msgstr "Rewind"
@@ -192,9 +200,17 @@ msgctxt "#31046"
 msgid "Delete group"
 msgstr "Delete group"
 
+msgctxt "#31047"
+msgid "Display certification rating on TV show poster"
+msgstr "Display certification rating on TV show poster"
+
 msgctxt "#31048"
 msgid "Available"
 msgstr "Available"
+
+msgctxt "#31049"
+msgid "Display certification rating on season poster"
+msgstr "Display certification rating on season poster"
 
 msgctxt "#31050"
 msgid "Press [B]OK[/B] to stop"
@@ -555,3 +571,23 @@ msgstr "Play your personal games or download one of the many game add-ons from t
 msgctxt "#31163"
 msgid "Show Fanart background"
 msgstr "Show Fanart background"
+
+msgctxt "#31171"
+msgid "Show movie certification ratings"
+msgstr "Show movie certification ratings"
+
+msgctxt "#31172"
+msgid "Show TV show certification ratings"
+msgstr "Show TV show certification ratings"
+
+msgctxt "#31173"
+msgid "Display certification rating on TV show poster"
+msgstr "Display certification rating on TV show poster"
+
+msgctxt "#31174"
+msgid "Display certification rating on season poster"
+msgstr "Display certification rating on season poster"
+
+msgctxt "#31175"
+msgid "Display certification rating on episode thumbnail"
+msgstr "Display certification rating on episode thumbnail"

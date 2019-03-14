@@ -44,6 +44,26 @@
 						<texture fallback="DefaultVideo.png" background="true">$VAR[InfoWallThumbVar]</texture>
 					</control>
 					<control type="group">
+						<description>List view - large movie poster image</description>
+						<visible>!Skin.String(show_moviecertificationrating,$LOCALIZE[16018]) + String.IsEqual(ListItem.DbType,movie)</visible>
+						<include content="MovieCertificationRatingImage">
+							<param name="left" value="512" />
+							<param name="top" value="854" />
+							<param name="height" value="84" />
+							<param name="width" value="84" />
+						</include>
+					</control>
+					<control type="group">
+						<description>List view - TV show - Large TV show select image</description>
+						<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[16018]) + [[Skin.HasSetting(show_tvshowposter) + String.IsEqual(ListItem.DbType,tvshow)] | [Skin.HasSetting(show_tvshowseason) + String.IsEqual(ListItem.DbType,season)] | [Skin.HasSetting(show_tvshowepisode) + String.IsEqual(ListItem.DbType,episode)]]</visible>
+						<include content="TVShowCertificationRatingImage">
+							<param name="left" value="50"/>
+							<param name="top" value="855"/>
+							<param name="height" value="80"/>
+							<param name="width" value="80"/>
+						</include>
+					</control>
+					<control type="group">
 						<left>310</left>
 						<top>936</top>
 						<include content="RatingCircle">
@@ -187,6 +207,37 @@
 					<fadetime>300</fadetime>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
 					<visible>String.IsEqual(ListItem.DbType,episode)</visible>
+				</control>
+				<control type="group">
+					<description>WideList view - Movie poster image</description>
+					<visible>!Skin.String(show_moviecertificationrating,$LOCALIZE[16018]) + String.IsEqual(ListItem.DbType,movie)</visible>
+					<include content="MovieCertificationRatingImage">
+						<param name="left" value="397"/>
+						<param name="top" value="555"/>
+						<param name="height" value="50"/>
+						<param name="width" value="50"/>
+					</include>
+				</control>
+				<control type="group">
+					<description>WideList View - TV show poster image</description>
+					<!-- <visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[16018]) + [[Skin.HasSetting(show_tvshowposter) + String.IsEqual(ListItem.DbType,tvshow)] | [Skin.HasSetting(show_tvshowseason) + String.IsEqual(ListItem.DbType,season)] | [Skin.HasSetting(show_tvshowepisode) + String.IsEqual(ListItem.DbType,episode)]]</visible> -->
+					<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[16018]) + [[Skin.HasSetting(show_tvshowposter) + String.IsEqual(ListItem.DbType,tvshow)] | [Skin.HasSetting(show_tvshowseason) + String.IsEqual(ListItem.DbType,season)]]</visible>
+					<include content="TVShowCertificationRatingImage">
+						<param name="left" value="143"/>
+						<param name="top" value="542"/>
+						<param name="height" value="60"/>
+						<param name="width" value="60"/>
+					</include>
+				</control>
+				<control type="group">
+					<description>WideList View - TV show episode thumbnail image</description>
+					<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[16018]) + Skin.HasSetting(show_tvshowepisode) + String.IsEqual(ListItem.DbType,episode)</visible>
+					<include content="TVShowCertificationRatingImage">
+						<param name="left" value="40"/>
+						<param name="top" value="180"/>
+						<param name="height" value="60"/>
+						<param name="width" value="60"/>
+					</include>
 				</control>
 				<control type="group">
 					<left>273</left>

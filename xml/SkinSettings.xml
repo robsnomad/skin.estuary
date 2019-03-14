@@ -67,6 +67,44 @@
 					<onclick>Skin.SelectBool($LOCALIZE[31024], 38018|circle_userrating, 563|circle_rating, 16018|)</onclick>
 					<label2>$VAR[RatingSettingLabel2Var]</label2>
 				</control>
+				<control type="button" id="708">
+					<label>$LOCALIZE[31037]</label>
+					<include>DefaultSettingButton</include>
+					<label2>$VAR[TVShowCertificationRatingLongCountryVar]</label2>
+					<onclick condition="String.IsEmpty(show_tvshowcertificationrating)">Skin.SetString(show_tvshowcertificationrating,us)</onclick>
+					<onclick condition="Skin.String(show_tvshowcertificationrating,$LOCALIZE[231])">Skin.SetString(show_tvshowcertificationrating,us)</onclick>
+					<onclick condition="Skin.String(show_tvshowcertificationrating,us)">Skin.SetString(show_tvshowcertificationrating,$LOCALIZE[231])</onclick>
+				</control>
+				<control type="radiobutton" id="709">
+					<label> - $LOCALIZE[31173]</label>
+					<include>DefaultSettingButton</include>
+					<onclick>Skin.ToggleSetting(show_tvshowposter)</onclick>
+					<selected>Skin.HasSetting(show_tvshowposter)</selected>
+					<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[231]) + Skin.String(show_tvshowcertificationrating)</visible>
+				</control>
+				<control type="radiobutton" id="710">
+					<label> - $LOCALIZE[31174]</label>
+					<include>DefaultSettingButton</include>
+					<onclick>Skin.ToggleSetting(show_tvshowseason)</onclick>
+					<selected>Skin.HasSetting(show_tvshowseason)</selected>
+					<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[231]) + Skin.String(show_tvshowcertificationrating)</visible>
+				</control>
+				<control type="radiobutton" id="711">
+					<label> - $LOCALIZE[31175]</label>
+					<include>DefaultSettingButton</include>
+					<onclick>Skin.ToggleSetting(show_tvshowepisode)</onclick>
+					<selected>Skin.HasSetting(show_tvshowepisode)</selected>
+					<visible>!Skin.String(show_tvshowcertificationrating,$LOCALIZE[231]) + Skin.String(show_tvshowcertificationrating)</visible>
+				</control>
+				<control type="button" id="712">
+					<label>$LOCALIZE[31171]</label>
+					<include>DefaultSettingButton</include>
+					<label2>$VAR[MovieCertificationRatingLongCountryVar]</label2>
+					<onclick condition="String.IsEmpty(show_moviecertificationrating)">Skin.SetString(show_moviecertificationrating,gb)</onclick>
+					<onclick condition="Skin.String(show_moviecertificationrating,$LOCALIZE[231])">Skin.SetString(show_moviecertificationrating,gb)</onclick>
+					<onclick condition="Skin.String(show_moviecertificationrating,gb)">Skin.SetString(show_moviecertificationrating,us)</onclick>
+					<onclick condition="Skin.String(show_moviecertificationrating,us)">Skin.SetString(show_moviecertificationrating,$LOCALIZE[231])</onclick>
+				</control>
 			</control>
 			<control type="grouplist" id="600">
 				<top>160</top>
